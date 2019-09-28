@@ -1,2 +1,2 @@
-# logo
+# Logo
 From psd to html
