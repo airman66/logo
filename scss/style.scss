@@ -78,40 +78,14 @@ body {
 }
 
 .intro {
-    height: 810px;
     width: 100%;
     max-width: 1500px;
     position: relative;
     padding-top: 198px;
     margin: 0 auto;
-}
-
-.intro-bg__img {
-    width: 100vw;
-    max-width: 1500px;
-    margin: 0 auto;
-    position: absolute;
-}
-
-.intro__bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 1500px;
     height: 810px;
-    z-index: -500;
-    // background-color: rgba(7, 16, 148, 0.411);
-    background-color: rgba(19, 19, 65, 0.623);
-}
-
-.intro-bg__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1500px;
-    height: 810px;
-    z-index: -1000;
+    background-image: url(../img/intro/bg.jpg);
+    background-position: center center;
 }
 
 .intro__headline {
